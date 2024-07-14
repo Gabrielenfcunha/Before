@@ -1,0 +1,76 @@
+:root {
+    --black-primary-color: #010101;
+    --white-primary-color: #D9D9D9;
+    --purple-primary-light-color: #C66AFF;
+    --purple-secondary-light-color: #9D00FF;
+    --purple-primary-dark-color: #572C72;
+    --black-secondary-color: #000;
+}
+
+.container__main {
+    background-color: var(--black-primary-color);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container__signin_title {
+    color: var(--white-primary-color);
+    font-size: 32px;
+}
+
+.container__signin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 600px;
+    background-color: var(--purple-primary-dark-color);
+    border-radius: 25px;
+}
+
+.container__signin_form {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.signin_form_input {
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 25px;
+    color: var(--white-primary-color);
+    background-color: var(--black-primary-color);
+    margin-bottom: 20px;
+}
+
+.container__signin_form > input:first-child {
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.container__signin_form div {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    color: var(--white-primary-color);
+    margin-bottom: 10px;
+}
+
+.signin_form_btn {
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 50px;
+    border: solid 1px var(--purple-primary-light-color);
+    color: var(--purple-primary-light-color);
+    background-color: var(--black-primary-color);
+}
+
+.signin_form_erro_acesso {
+    text-decoration: underline;
+    font-size: 16px;
+    margin-top: 30px;
+}

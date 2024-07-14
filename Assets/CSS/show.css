@@ -1,0 +1,101 @@
+:root {
+    --black-primary-color: #010101;
+    --white-primary-color: #D9D9D9;
+    --purple-primary-light-color: #C66AFF;
+    --purple-secondary-light-color: #9D00FF;
+    --purple-primary-dark-color: #572C72;
+    --black-secondary-color: #000;
+}
+
+.container__main {
+    background-color: var(--black-primary-color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container__show {
+    background-color: var(--white-primary-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.container__show h2 {
+    margin: 20px 0;
+}
+
+.container__show_thumb {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 26px;
+    font-weight: 800;
+}
+
+.container__show_thumb img {
+    width: 100%;
+}
+
+.container__show_thumb div {
+    width: 100%;
+    text-align: center;
+}
+
+.container__show_desc {
+    font-size: 18px;
+    text-align: justify;
+    margin: 20px 0;
+}
+
+.container__show_form {
+    background-color: var(--purple-primary-dark-color);
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+.container__show_form h3 {
+    font-size: 22px;
+}
+
+.show_form_input {
+    background-color: var(--black-primary-color);
+    font-size: 18px;
+    color: var(--white-primary-color);
+    margin: 5px 0;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.show_form_input_btn {
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 50px;
+    border: solid 1px var(--purple-primary-light-color);
+    color: var(--purple-primary-light-color);
+    background-color: var(--black-primary-color);
+    margin: 15px 0;
+}
+
+.container__recomendacoes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 30px 0;
+    padding: 10px;
+}
+
+.container__recomendacoes h3 {
+    color: var(--white-primary-color);
+    font-size: 26px;
+}
